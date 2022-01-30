@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+header h1, p{
+    text-align: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color:turquoise;
+    text-decoration: underline;
+}
