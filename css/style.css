@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-color: black;
@@ -17,5 +17,24 @@ header a{
 }
 header a:hover{
     color:turquoise;
+    text-decoration: underline;
+}
+main{
+    height: 100vh;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover{
+    color: turquoise;
     text-decoration: underline;
 }
