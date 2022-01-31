@@ -5,6 +5,7 @@
     --font1: 'Passion One', cursive;
     --font2: 'Sriracha', cursive;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -15,50 +16,50 @@ header{
     background-color: black;
     color: white;
     padding: 50px;
+    letter-spacing: 1px;
 }
 header h1{
     text-align: center;
     font-family: var(--font1);
+    font-size: 7vw;
+}
+.big{
+    font-family: var(--font1);
+    font-size: 10vw;
 }
 header p, a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding-top: 2px;
 }
 header a:hover{
-    color:turquoise;
     text-decoration: underline;
 }
-main{
 
-}
-
-pre{
+section>p{
     font-family: var(--font2);
-    font-size: 1.5em;
+    font-size: 3.5vw;
+    padding: 70px 50px 200px 30px;
+    line-height: 2em;
 }
-
-pre.transp{
+p.transp{
+    display: block;
     background-color: rgba(0, 0, 0, 0.404);
     color: white;
-    width: 400px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    height: 50%;
+    width: 50%;
 }
 
-section{
-    height: 100%;
-}
-
-article#q1{
-    background: violet url('../imagens/background001.jpg') center center no-repeat fixed;
+#q1{
+    background: black url('../imagens/background001.jpg') center center no-repeat fixed;
     background-size: cover;
-
+    box-shadow: inset 0em 0.5em 1em rgba(0, 0, 0, 0.411);
 }
-article#q2{
-    background: violet url('../imagens/background002.jpg') center center no-repeat fixed;
+#q2{
+    background: black url('../imagens/background002.jpg') center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 0em 0.5em 1em rgba(0, 0, 0, 0.411);
 }
 
 footer{
@@ -74,6 +75,5 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color: turquoise;
     text-decoration: underline;
 }
